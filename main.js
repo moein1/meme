@@ -64,6 +64,7 @@ function updateMemeCanvas(canvas, image, topText, bottomText) {
   ctx.fillText(bottomText, width / 2, `${height - yoffset}`);
 }
 
+//testing the bind method
 function coordinate() {
   console.log(this.x, this.y);
 }
@@ -80,6 +81,7 @@ const testData = [
   { name: "Taher", value: 120 },
 ];
 
+//testing reduce method
 const resutl = testData.reduce((total, item) => {
   return total + item.value || 0;
 }, 300);
